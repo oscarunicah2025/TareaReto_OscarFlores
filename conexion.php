@@ -8,7 +8,7 @@
 
     try{ //en el TRY  se hara la cadena de conexion, 
         $cadena_conexion = new PDO($servidor,$user,$password);
-        echo "test good";
+        echo "Conexion Exitos_Oscar Armando Flores Castellanos";
 
     }catch(PDOException $e){// el catch sera un mensaje en caso de errores al momento de conectar con la base de datos
 
